@@ -32,14 +32,14 @@ The project involved building a robust data pipeline that transitioned raw sales
 
 ## 💼 Business Problem
 
-Effective e-commerce management requires a deep understanding of customer behavior, logistics, and revenue streams. This project addresses several key business challenges through data-driven analysis:
+In the highly competitive e-commerce landscape, maximizing revenue requires moving beyond basic volume tracking to deeply understand customer behavior, supply chain efficiency, and regional demand. 
 
-* **Customer Segmentation & Value:** Differentiating between **B2B and individual consumer** performance.
-* **Operational Efficiency:** Comparing **Amazon vs. Merchant fulfillment** cancellation rates.
-* **Strategic Growth Tracking:** Calculating **Month-over-Month (MoM) growth** across categories.
-* **Revenue Optimization:** Categorizing transactions into **High, Medium, and Low-value tiers**.
-* **Data Integrity:** Standardizing inconsistent regional data to ensure accurate reporting.
+This project was initiated to analyze the underlying data and solve four critical business challenges:
 
+* **Untapped High-Value Segments:** Standard B2C consumers drive raw volume, but the B2B segment offers a significantly higher Average Order Value (AOV). The business currently lacks a targeted strategy to capture and retain these high-value clients.
+* **Fulfillment Inefficiencies & Revenue Leakage:** A significant reliability gap exists in the supply chain. Elevated cancellation rates in Merchant-fulfilled orders (13.68%) compared to Amazon-fulfilled orders (6.73%) indicate bottlenecks that cause direct, preventable revenue loss.
+* **Stagnant Cart Sizes & Promotional Inefficiency:** Despite marketing promotions triggering massive short-term volume spikes, the average order quantity remains stubbornly low (~0.96). Current flat-discount promotions are failing to drive multi-item purchases or build long-term retention.
+* **Geographical Vulnerability & Inventory Misallocation:** Revenue is dangerously concentrated in a few hyper-local hubs (e.g., a single city driving over 65% of its region's sales). The lack of a diversified, state-specific inventory strategy leaves the business exposed to severe logistical risks and regional stockouts.
 ---
 
 ## 📊 Dataset
